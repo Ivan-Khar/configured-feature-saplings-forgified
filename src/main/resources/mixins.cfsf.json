@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "one.theaq.cfsf.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MushroomBlockMixin",
+    "AbstractTreeGrowerMixin",
+    "AbstractMegaTreeGrowerMixin",
+    "FungusBlockMixin",
+    "MossBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
